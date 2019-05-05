@@ -14,8 +14,9 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 <p>Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
   <br><br>
   <i>The following test should pass:</i>
-```
+<br>  <br>
 node = Node('root', Node('left', Node('left.left')), Node('right'))
+<br>
 assert deserialize(serialize(node)).left.left.val == 'left.left'
-```
+
   </p>
